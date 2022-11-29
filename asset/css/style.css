@@ -1,0 +1,50 @@
+body {
+    margin : 0;
+}
+
+.bg--calypso {
+    background-color: #295C7A;
+}
+
+.bg--white {
+    background-color: white;
+}
+
+.section {
+    padding: 100px 0;
+}
+
+.section__title {
+    max-width: 468px;
+    margin: auto;
+    padding-bottom: 90px;
+}
+
+.play-button {
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+}
+
+.play-button::after{
+    content: '';
+    width: 0;
+    height: 0;
+    border-left:solid 20px #ffffff;
+    border-bottom: solid 20px transparent;
+    border-top: solid 20px transparent;
+}
+
+.owl-carousel__item {
+    padding: 30px 40px;
+}
+
+.owl-carousel__item-avatar {
+    width:50px;
+    border-radius: 50%;
+    top:23px;
+    left:-43px;
+}
