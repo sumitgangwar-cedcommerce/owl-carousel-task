@@ -33,18 +33,24 @@ body {
     content: '';
     width: 0;
     height: 0;
-    border-left:solid 20px #ffffff;
+    border-left: solid 20px #ffffff;
     border-bottom: solid 20px transparent;
     border-top: solid 20px transparent;
+    position: absolute;
+    top: 32px;
+    left: 40px;
 }
 
 .owl-carousel__item {
-    padding: 30px 40px;
+    padding: 30px 60px;
+    max-width: 450px;
+    margin: 0 auto;
 }
 
 .owl-carousel__item-avatar {
-    width:50px;
+    width:96px;
+    height:96px;
     border-radius: 50%;
-    top:23px;
-    left:-43px;
+    top:10px;
+    left:-60px;
 }
